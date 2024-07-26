@@ -1,0 +1,104 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    
+}
+
+/* Header Styles */
+header {
+    background: url('images/bg1.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+}
+
+/* Hero Section Text */
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+/* Primary Button */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+/* Section Styles */
+section {
+    padding: 60px 0;
+}
+
+/* Light Background for Sections */
+.bg-light {
+    background-color: #f8f9fa;
+}
+
+/* Card Hover Effect */
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+}
+
+/* Custom Animation: Fade In Up */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fadeInUp {
+    animation: fadeInUp 1s ease-out;
+}
+
+/* Social Media Section */
+#social-media {
+    background-color: #f8f9fa;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between icons */
+}
+
+.social-icon {
+    width: 40px; /* Size of the icons */
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.social-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Scale effect on hover */
+    opacity: 0.8; /* Slightly fade the icon on hover */
+}
+
